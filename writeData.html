@@ -64,33 +64,8 @@
                 <form class="form">
                     <div class="student-details">
                         <label for="schNo">School Number : </label>
-                        <input type="number" name="schNo" id="schNo" placeholder="School Number"><br>
-    
-                        <label for="fname">First Name : </label>
-                        <input type="text" name="firstName" id="fname" placeholder="First Name">
-    
-                        <label for="mname">Middle Name : </label>
-                        <input type="text" name="middleName" id="mname" placeholder="Middle Name">
-    
-                        <label for="lname">Last Name : </label>
-                        <input type="text" name="lastName" id="lname" placeholder="Last Name"><br>
-    
-                        <label for="fatherName">Father Name : </label>
-                        <input type="text" name="fatherName" id="fatherName" placeholder="Father Name"><br>
-    
-                        <label for="mothername">Mother Name : </label>
-                        <input type="text" name="motherName" id="motherName" placeholder="Mother Name">
-    
-                        <label for="gender">Gender : </label>
-                        <select name="gender" id="gender">
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                            <option value="other">Other</option>
-                        </select>
-    
-                        <label for="dob">Date of birth : </label>
-                        <input type="date" name="dob" id="dob">
-    
+                        <input class="schNo" type="number" name="schNo" id="schNo" placeholder="School Number">
+
                         <label for="class">Class : </label>
                         <select name="class" id="class">
                             <option value="1">1</option>
@@ -108,7 +83,29 @@
                             <option value="Bsc">Bsc</option>
                             <option value="Msc">Msc/option>
                             <option value="Phd">Phd</option>
+                        </select><br>
+
+                        <label for="fname">First Name : </label>
+                        <input type="text" name="firstName" id="fname" placeholder="First Name">    
+    
+                        <label for="lname">Last Name : </label>
+                        <input type="text" name="lastName" id="lname" placeholder="Last Name"><br>
+    
+                        <label for="fatherName">Father Name : </label>
+                        <input type="text" name="fatherName" id="fatherName" placeholder="Father Name"><br>
+    
+                        <label for="mothername">Mother Name : </label>
+                        <input type="text" name="motherName" id="motherName" placeholder="Mother Name"><br>
+    
+                        <label for="gender">Gender : </label>
+                        <select name="gender" id="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
                         </select>
+    
+                        <label for="dob">Date of birth : </label>
+                        <input type="date" name="dob" id="dob">
                     </div>
 
                     <div class="contact-details">
@@ -119,35 +116,45 @@
                         
                         <div class="contact-details-right">
                             <label for="country">Country : </label>
-                            <input type="text" name="country" id="country" placeholder="Country"><br>
+                            <input type="text" name="country" id="country" placeholder="Country">
 
                             <label for="state">State : </label>
-                            <input type="text" name="state" id="state" placeholder="State">
+                            <input type="text" name="state" id="state" placeholder="State"><br>
         
                             <label for="city">City : </label>
                             <input type="text" name="city" id="city" placeholder="City">
 
                             <label for="pincode">Pin Code : </label>
-                            <input type="number" name="pincode" id="pincode" placeholder="Pin Code"><br><br>
+                            <input class="pincode" type="number" name="pincode" id="pincode" placeholder="Pin Code"><br><br>
         
                             <label for="mobNo">Mobile No : </label>
-                            <input type="number" name="mobNo" id="mobNo" placeholder="Mobile Number">
+                            <input class="mobNo" type="number" name="mobNo" id="mobNo" placeholder="Mobile Number">
 
                             <label for="parentMobNo">Parent Mobile No : </label>
-                            <input type="number" name="parentMobNo" id="parentMobNo" placeholder="Parent Mobile Number"><br>
+                            <input class="mobNo" type="number" name="parentMobNo" id="parentMobNo" placeholder="Parent Mobile Number"><br>
         
                             <label for="email">Email : </label>
                             <input type="email" name="email" id="email" placeholder="Email">
                         </div>
                     </div>
+
+                    <div class="other-details">
+                        <div class="other-details-left">
+                            <div class="student-image"><p class="text-grey md-heading">Image Preview</p></div>
+                            <label for="image">Image : </label>
+                            <input type="file" name="image" id="image">
+                        </div>
+
+                        <div class="other-details-right">
+                            <label for="note">About Student : </label><br>
+                            <textarea name="note" id="note" placeholder=" Start writing here..."></textarea>                        
+                        </div>    
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn-primary" type="submit">View Details</button>
+                        <button class="btn-primary" type="submit">Add Details</button>
+                    </div>
                
-                    <label for="note">Write about student </label>
-                    <textarea name="note" id="note" placeholder=" Start writing here..."></textarea>
-
-                    <label for="image">Image : </label>
-                    <input type="file" name="image" id="image">
-
-                    <button class="btn-primary" type="submit">Add Deatails</button>
                 </form>
             </div>
         </div>
