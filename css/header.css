@@ -1,7 +1,6 @@
 /* #################################### Top Section  ############################ */
 
 #top{
-    border: 2px solid red;
     flex-wrap: wrap;
     background: #209b60;
     color: #fff;
@@ -41,7 +40,7 @@
 /* ############################### Header  ############################# */
 
 .header{
-    background-color: lightsalmon;
+    background: linear-gradient(to top,#d64c7f,#ee4758 50%);
     display: flex;
     flex-wrap: wrap;
 }
