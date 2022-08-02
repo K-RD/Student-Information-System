@@ -1,4 +1,44 @@
-/* ################## Header  #################### */
+/* #################################### Top Section  ############################ */
+
+#top{
+    border: 2px solid red;
+    flex-wrap: wrap;
+    background: #209b60;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+    width: auto;
+}
+.top-nav ul li{
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+    width: auto;
+    text-align: center;
+}
+
+.top-nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.top-nav ul li span{
+    font-size: 1.5rem;
+}
+
+#top::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ############################### Header  ############################# */
 
 .header{
     background-color: lightsalmon;
@@ -17,17 +57,15 @@
     text-align: center;
 }
 
-/* ################## Nav Bar  #################### */
+/* ###################################### Nav Bar  ################################ */
 
 .navbar{
-    /* border: 8px dotted red; */
     background-color: #45f;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .nav-items{
     display: flex;
     justify-content:space-between;
-    margin: 1.5rem 0;
     text-align: center;
 }

@@ -1,0 +1,58 @@
+.main{
+    background: #f0f2f5;
+    border: 2px solid greenyellow;
+    /* height: 150rem; */
+    padding: 3rem 0;
+}
+
+.form-wrapper{
+    background: #fff;
+    border: 2px solid yellow;
+}
+.form{
+    color: black;
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 1rem;
+    /* text-transform: uppercase; */
+}
+
+
+.student-details{
+    border: 2px solid rosybrown;
+}
+
+
+.contact-details{
+    border: 2px solid rebeccapurple;
+    display: flex;
+}
+
+.contact-details-left{
+    border: 2px solid red;
+    flex: 1;
+}
+
+.contact-details-left label{
+    display: inline-block;
+    margin-left: 5%;
+}
+.contact-details-left textarea{
+    border-radius: 0.6rem;
+    display: block;
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+.contact-details-right{
+    border: 2px solid red;
+    flex: 2.1;
+}
+
+.form input{
+    text-transform: uppercase;
+    padding: 0.5rem;
+    border: 1px solid #999;
+    border-radius: 0.6rem;
+}
