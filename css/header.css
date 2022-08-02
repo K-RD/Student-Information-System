@@ -2,8 +2,9 @@
 
 #top{
     flex-wrap: wrap;
-    background: #209b60;
+    background: #009F6B;
     color: #fff;
+    font-size: 1.2rem;
     vertical-align: middle;
 }
 
@@ -59,7 +60,7 @@
 /* ###################################### Nav Bar  ################################ */
 
 .navbar{
-    background-color: #45f;
+    background-color: #007FFF;
     padding: 0.5rem;
 }
 
@@ -67,4 +68,21 @@
     display: flex;
     justify-content:space-between;
     text-align: center;
+}
+ 
+.nav-item{
+    text-decoration: none;
+}
+
+/* ############# footer styling ################# */
+
+.footer{
+    background-image: linear-gradient(to right, #EB3349 0%, #F45C43 51%, #EB3349 100%);
+    color: #f4f4f4;
+    padding: 2rem;
+    text-align:center;
+}
+
+.social-media-links i{
+    margin: 2rem;
 }

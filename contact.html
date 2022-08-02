@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/utility.css">
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/contact.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/57ae888bd4.js" crossorigin="anonymous"></script>
-    <title>Login Page</title>
+    <title>Contact Us</title>
 </head>
 <body>
     <section id="top">
@@ -58,23 +58,54 @@
                 <a href="contact.html" class="nav-item nav-item-5 md-heading text-light">Contact Us</a>
             </div>
         </div>
-    </div>   
-    
+    </div>
 
-    <section class="main">
+    <section class="contact-form">
         <div class="container">
-            <div class="main-wrapper">
-                <div class="text-box">
-                    <p class="md-heading text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident praesentium cumque eveniet facere harum nisi doloremque doloribus. Odit, fugit nulla.</p>
+            <div class="form-wrapper">
+
+                <div class="company-address">
+                    <div class="address-group address-group-1">
+                        <i class="fas fa-map-marker-alt text-red fa-3x"></i>
+                        <h2 class="text-grey md-heading">Location</h2>
+                        <p>#2611  Nehru Nagar, city name, town name</p>
+                    </div>
+                    <div class="address-group address-group-2">
+                        <i class="far fa-envelope text-red fa-3x"></i>
+                        <h2 class="text-grey md-heading">Email</h2>
+                        <p>creater@gmail.com</p>
+                    </div>
+                    <div class="address-group address-group-3">
+                        <i class="fas fa-phone-square text-red fa-3x"></i>
+                        <h2 class="text-grey md-heading">Call</h2>
+                        <p>+911234567890</p>
+                    </div>
+                    <img src="./images/company-img.jpg" alt="Company Image">
                 </div>
-                <div class="box-wrapper">
-                    <input type="text" name="username" id="username" placeholder="Username">
-                    <input type="password" name="password" id="password" placeholder="Password">
-                    <button class="btn-login" type="submit">Log In</button>
-                    <a class="for-pass" href="#">Forgotten Password?</a>
-                    <div class="line"></div>
-                    <button class="btn-new-acc" type="submit">Create New Account</button>
-                </div>
+
+                <form action="" class="form">
+                    <h1 class="lg-heading text-black">Contact Us</h1>
+                    <p class="text-grey">Let us know your questions, suggestions and concerns by filling out the contact form below.</p>
+
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" name="" id="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Email</label>
+                        <input type="email" name="" id="mail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="text" name="" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="" id="message" > </textarea>
+                    </div>
+                    <button type="submit" class="form-btn">Submit</button>
+                    </form>
+
             </div>
         </div>
     </section>
