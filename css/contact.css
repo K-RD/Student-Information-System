@@ -14,6 +14,12 @@
     padding: 1rem;
 }
 
+p {
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+}
+
 .form-wrapper .company-address i{
     display: inline-block;
     margin-right: 1rem;
