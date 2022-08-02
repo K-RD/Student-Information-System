@@ -1,0 +1,33 @@
+/* ################## Header  #################### */
+
+.header{
+    background-color: lightsalmon;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo-img{
+    margin: 0.5rem;
+    height: 8rem;
+    object-fit: cover;
+}
+.header-heading{
+    flex: 1;
+    padding-top: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* ################## Nav Bar  #################### */
+
+.navbar{
+    /* border: 8px dotted red; */
+    background-color: #45f;
+    padding: 1rem;
+}
+
+.nav-items{
+    display: flex;
+    justify-content:space-between;
+    margin: 1.5rem 0;
+    text-align: center;
+}
