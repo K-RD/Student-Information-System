@@ -91,12 +91,4 @@ p {
 .form-btn{
     display: block;
     margin: 0 auto;
-    padding: 0.5em 3em;
-    font-size: 1.8rem;
-    text-transform: uppercase;
-    background: #e63946;
-    color: #fff;
-    outline: none;
-    border: none;
-    cursor: pointer;
 }

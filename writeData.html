@@ -71,7 +71,7 @@
                                 <option value="11">11</option>
                                 <option value="12">12</option>
                                 <option value="Bsc">Bsc</option>
-                                <option value="Msc">Msc/option>
+                                <option value="Msc">Msc</option>
                                 <option value="Phd">Phd</option>
                             </select>
     
@@ -96,10 +96,10 @@
                             <input class="mothername" type="text" name="motherName" id="motherName" placeholder="Mother Name"><br>
                         </div>
                         <div class="student-details-right">
-                            <div class="student-image-holder" ><p class="text-grey md-heading">Image Preview</p></div>
+                            <div class="student-image-holder" ><p class="text-grey md-heading">Upload Image</p></div>
                             <div class="student-image-holder-hover" ></div>
-                            <!-- <label class="image-label" for="image">Image : </label> -->
-                            <input class="image" type="file" name="image" id="image">
+                            <!-- <label class="image-label" for="avatar">Image : </label> -->
+                            <input class="image" type="file" name="avatar" id="avatar" accept="image/jpg, image/jpeg, image/png">
                         </div>
                     </div>
 
@@ -123,7 +123,7 @@
                             <input class="pincode" type="number" name="pincode" id="pincode" placeholder="Pin Code"><br><br>
         
                             <label class="mobNo-label" for="mobNo">Mobile No : </label>
-                            <input class="mobNo" type="number" name="mobNo" id="mobNo" placeholder="Mobile Number">
+                            <input class="mobNo" type="number" name="mobNo" id="mobNo" placeholder="Mobile Number" minlength="10" maxlength="10">
 
                             <label class="mobNo-label" for="parentMobNo">Parent Mobile No : </label>
                             <input class="mobNo" type="number" name="parentMobNo" id="parentMobNo" placeholder="Parent Mobile Number"><br>

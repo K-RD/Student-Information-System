@@ -5,21 +5,23 @@
 
 .form-wrapper{
     background: #fff;
-    /* border: 2px solid yellow; */
+    border-radius: 0.8rem;
 }
 .form{
     color: #555;
     font-weight: 400;
     font-size: 2rem;
     padding: 1rem;
-    /* text-transform: uppercase; */
 }
 
 .form input, .form select{
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     padding: 0.5rem;
+    color: #c55a63;
+    background: #f3f3f3;
     border: 1px solid #999;
     border-radius: 0.6rem;
+    font-size: 1.3rem;
 }
 .form select{
     color: #555;    
@@ -28,10 +30,40 @@
     border: 4px solid rgb(21, 62, 153);
 }
 
+
 .student-details{
     display: flex;
     /* flex-wrap: wrap; */
 }
+
+/* Placeholder Color CSS */
+::-webkit-input-placeholder {
+    color: #c55a63 !important;
+    text-transform: none;
+    font-size: 1.3rem;
+}
+::-moz-placeholder {
+    color: #c55a63 !important;
+    text-transform: none;
+    font-size: 1.3rem;
+}
+:-ms-input-placeholder {
+    color: #c55a63 !important;
+    text-transform: none;
+    font-size: 1.3rem;
+}
+:-moz-placeholder {
+    color: #c55a63 !important;
+    text-transform: none;
+    font-size: 1.3rem;
+}
+
+::-webkit-file-upload-button{
+    color: #c55a63 !important;
+    text-transform: none;
+    font-size: 1.3rem;
+}
+
 .student-details-left{
     flex: 2.3;
 }
@@ -48,6 +80,8 @@
 }
 .student-details-right .student-image-holder{
     border: 1px solid #999;
+    text-align: center;
+    padding: 10% 0;
     height: 85%;
     width: 40%;
     border-radius: 0.8rem;

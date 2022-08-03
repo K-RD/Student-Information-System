@@ -1,0 +1,21 @@
+.main{
+    background: #d9d9d9;
+    padding: 5rem 0;
+}
+.btn{
+    display: inline-block;
+    margin: 0 0 0 15%;
+}
+
+.databox-wrapper{
+    background: #ffff;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 0.8rem;
+}
+.databox{
+    margin: 2rem 0 0 0;
+    height: 100vh;
+    background: #f1f1f1;
+    border-radius: 0.8rem;
+}
