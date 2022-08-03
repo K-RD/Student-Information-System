@@ -1,74 +1,7 @@
 .main{
     background: #f0f2f5;
-    /* border: 2px solid greenyellow; */
-    /* height: 150rem; */
     padding: 3rem 0;
 }
-
-.form-wrapper{
-    background: #fff;
-    /* border: 2px solid yellow; */
-}
-.form{
-    color: #555;
-    font-weight: 500;
-    font-size: 2rem;
-    padding: 1rem;
-    /* text-transform: uppercase; */
-}
-
-.form input{
-    text-transform: uppercase;
-    padding: 0.5rem;
-    border: 1px solid #999;
-    border-radius: 0.6rem;
-}
-
-.contact-details{
-    /* border: 2px solid rebeccapurple; */
-    display: flex;
-}
-
-.contact-details-left, .other-details-left{
-    flex: 1;
-}
-
-.contact-details-left label, .other-details-right label{
-    display: inline-block;
-    margin-left: 5%;
-}
-.contact-details-left textarea, .other-details-right textarea{
-    border-radius: 0.6rem;
-    display: block;
-    width: 90%;
-    height: 70%;
-    margin: 0 auto;
-}
-
-.contact-details-right, .other-details-right{
-    padding: 1rem 2rem;
-    flex: 2.1;
-    
-}
-
-.other-details{
-    /* border: 2px solid red; */
-    display: flex;
-    flex-wrap: wrap;
-    height: 21rem;
-    /* flex-direction: row-reverse; */
-}
-.other-details-left{
-    padding: 1rem 2rem;
-}
-
-.other-details-left .student-image{
-    border: 1px solid #999;
-    height: 80%;
-    width: 50%;
-    margin: 0 auto;
-}
-
 .btn-wrapper{
     height: 5rem;
     display: flex;

@@ -1,0 +1,128 @@
+.form-wrapper{
+    background: #fff;
+    /* border: 2px solid yellow; */
+}
+.form{
+    color: #555;
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 1rem;
+    /* text-transform: uppercase; */
+}
+
+.form input, .form select{
+    text-transform: uppercase;
+    padding: 0.5rem;
+    border: 1px solid #999;
+    border-radius: 0.6rem;
+}
+.form select{
+    color: #555;    
+}
+.form input:active , .form select:active{
+    border: 4px solid rgb(21, 62, 153);
+}
+
+.student-details{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.student-details-left{
+    flex: 2.3;
+}
+.student-details-left .section-label{
+    margin-left: 25rem;
+}
+.student-details-left .lname-label{
+    margin-left: 11rem;
+}
+
+.student-details-right{
+    padding: 1rem 2rem;
+    flex: 1;    
+}
+.student-details-right .student-image-holder{
+    border: 1px solid #999;
+    height: 85%;
+    width: 50%;
+    border-radius: 0.8rem;
+    margin: 0 auto 0.5rem auto;
+}
+/* .student-image-holder:hover{
+    position: absolute;
+    overflow-x: 200rem;
+    border: 1px solid #999;
+    height: 80%;
+    width: 50%;
+    border-radius: 0.8rem;
+}
+.hover-image {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    pointer-events: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 90vh;
+}
+.student-image-holder-hover{
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    pointer-events: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+} */
+.student-details-right .image{
+    margin: 0 auto;
+    display:block;
+
+}
+
+
+.contact-details{
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+}
+
+.contact-details-left, .other-details-left{
+    flex: 1;
+}
+
+.contact-details-left label, .other-details-right label{
+    display: inline-block;
+    margin-left: 5%;
+}
+.contact-details-left textarea, .other-details-right textarea{
+    border-radius: 0.6rem;
+    display: block;
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+.contact-details-right, .other-details-right{
+    padding: 1rem 2rem;
+    flex: 2.1;
+    
+}
+
+.other-details{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    height: 21rem;
+    /* flex-direction: row-reverse; */
+}
+.other-details-left{
+    padding: 1rem 2rem;
+}
