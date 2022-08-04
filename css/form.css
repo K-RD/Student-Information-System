@@ -15,9 +15,10 @@
 }
 
 .form input, .form select{
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
     padding: 0.5rem;
-    color: #c55a63;
+    color: #252525;
+    font-weight: 500;
     background: #f3f3f3;
     border: 1px solid #999;
     border-radius: 0.6rem;
@@ -66,6 +67,9 @@
 
 .student-details-left{
     flex: 2.3;
+}
+.student-details-left .year-label{
+    margin-left: 11rem;
 }
 .student-details-left .section-label{
     margin-left: 25rem;

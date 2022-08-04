@@ -49,36 +49,34 @@
     <section class="main">
         <div class="container">
             <div class="form-wrapper">
-                <form class="form">
+                <form class="form" id="form-view-data">
                     <div class="student-details">
-                        <div class="student-details-left">                            
-                            <label class="class-label" for="class">Class : </label>
-                            <select class="class" name="class" id="class">
-                                <option value="notApplicable">Not Applicable</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                 <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                                <option value="11">11</option>
-                                <option value="12">12</option>
-                                <option value="Bsc">Bsc</option>
-                                <option value="Msc">Msc/option>
-                                <option value="Phd">Phd</option>
-                            </select>
+                        <div class="student-details-left">
+                            <div class="label-input-pair">
+                                <label class="year-label" for="year">Year : </label>
+                                <input class="year" class="year" type="number" name="year" id="year" placeholder="Year" min="1950" max="2023" >                       
+                            </div>
+
+                            <div class="label-input-pair">
+                                <label class="class-label" for="class">Class : </label>
+                                <select class="class" name="class" id="class">
+                                    <option value="all">All</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="Bsc">Bsc</option><option value="Msc">Msc</option><option value="Phd">Phd</option>
+                                </select>
+                            </div>
     
-                            <label class="section-label" for="section">Section : </label>
-                            <select class="section" name="section" id="section">
-                                <option value="notApplicable">Not Applicable</option>
-                                <option value="A">A</option>
-                                <option value="B">B</option>
-                                <option value="C">C</option>
-                            </select> 
+                            <div class="label-input-pair">
+                                <label class="section-label" for="section">Section : </label>
+                                <select class="section" name="section" id="section">
+                                    <option value="all">all</option><option value="A">A</option><option value="B">B</option><option value="C">C</option>
+                                </select>
+                            </div>
+
+                            <div class="label-input-pair">
+                                <label class="gender-label" for="gender">Gender : </label>
+                                <select class="gender" name="gender" id="gender">
+                                    <option value="all">All</option><option value="male">Male</option><option value="female">Female</option><option value="other">Other</option>
+                                </select>
+                            </div>
                             <button class="btn btn-secondary" type="submit">View Details</button>
                         </div>   
                     </div>

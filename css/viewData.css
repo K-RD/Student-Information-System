@@ -2,9 +2,16 @@
     background: #d9d9d9;
     padding: 5rem 0;
 }
-.btn{
-    display: inline-block;
-    margin: 0 0 0 15%;
+
+#form-view-data .student-details-left{
+    display: flex;
+    justify-content: space-between;
+}
+#form-view-data .student-details-left .section-label{
+    margin: 0;
+}
+#form-view-data .student-details-left .year-label{
+    margin: 0;
 }
 
 .databox-wrapper{
