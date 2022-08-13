@@ -54,34 +54,34 @@
                 <form class="form">
                     <div class="student-details">
                         <div class="student-details-left">
-                            <label class="schno-label" for="schNo">School Number : </label>
-                            <input class="schno" class="schNo" type="number" name="schNo" id="schNo" placeholder="School Number" min="1" max="999999" >
-
-                            <label class="year-label" for="year">Year : </label>
-                            <input class="year" class="year" type="number" name="year" id="year" placeholder="Year" min="1950" max="2023" ><br>
-    
-                            <label class="class-label" for="class">Class : </label>
-                            <select class="class" name="class" id="class">
-                                <option value="notApplicable">Not Applicable</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="Bsc">Bsc</option><option value="Msc">Msc</option><option value="Phd">Phd</option>
-                            </select>
-    
-                            <label class="section-label" for="section">Section : </label>
-                            <select class="section" name="section" id="section">
-                                <option value="notApplicable">Not Applicable</option><option value="A">A</option><option value="B">B</option><option value="C">C</option>
-                            </select><br>
-    
-                            <label class="fname-label" for="fname">First Name : </label>
-                            <input class="fname" type="text" name="firstName" id="fname" placeholder="First Name">    
-        
-                            <label class="lname-label" for="lname">Last Name : </label>
-                            <input class="lname" type="text" name="lastName" id="lname" placeholder="Last Name"><br>
-        
+                            <label class="fname-label" for="fname">Full Name : </label>
+                            <input class="fname" type="text" name="firstName" id="fname" placeholder="Full Name"><br>   
+                            
                             <label class="fathername-label" for="fatherName">Father Name : </label>
                             <input class="fathername" type="text" name="fatherName" id="fatherName" placeholder="Father Name"><br>
         
                             <label class="mothername-label" for="mothername">Mother Name : </label>
                             <input class="mothername" type="text" name="motherName" id="motherName" placeholder="Mother Name"><br>
                         </div>
+
+                        <div class="student-details-middle">
+                            <label class="schno-label" for="schNo">School Number : </label>
+                            <input class="schno" class="schNo" type="number" name="schNo" id="schNo" placeholder="School Number" min="1" max="999999" ><br>
+
+                            <label class="year-label" for="year">Year : </label>
+                            <input class="year" class="year" type="number" name="year" id="year" placeholder="Year" min="1950" max="2023" ><br>
+
+                            <label class="class-label" for="class">Class : </label>
+                            <select class="class" name="class" id="class">
+                                <option value="notApplicable">Not Applicable</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="Bsc">Bsc</option><option value="Msc">Msc</option><option value="Phd">Phd</option>
+                            </select><br>
+
+                            <label class="section-label" for="section">Section : </label>
+                            <select class="section" name="section" id="section">
+                                <option value="notApplicable">Not Applicable</option><option value="A">A</option><option value="B">B</option><option value="C">C</option>
+                            </select><br>
+                        </div>
+
                         <div class="student-details-right">
                             <div class="student-image-holder" ><p class="text-grey md-heading">Upload Image</p></div>
                             <div class="student-image-holder-hover" ></div>
@@ -89,6 +89,8 @@
                             <input class="image" type="file" name="avatar" id="avatar" accept="image/jpg, image/jpeg, image/png">
                         </div>
                     </div>
+
+                    <div class="horizontal-line"></div>
 
                     <div class="contact-details">
                         <div class="contact-details-left">
@@ -119,6 +121,8 @@
                             <input class="email" type="email" name="email" id="email" placeholder="Email">
                         </div>
                     </div>
+
+                    <div class="horizontal-line"></div>
 
                     <div class="other-details">
                         <div class="other-details-left">
@@ -152,7 +156,7 @@
             <i class="fa-brands fa-twitter text-light fa-4x"></i>
             <i class="fa-brands fa-instagram text-light fa-4x"></i>
         </div>   
-        <p class="text-light small-heading">Student Information System &copy; 2020, All Rights Reserved</p>
+        <p class="text-light small-heading">Student Information System &copy; 2022, All Rights Reserved</p>
     </footer>
     
     <script src="./js/basic.js"></script>
