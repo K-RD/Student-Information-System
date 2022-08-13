@@ -1,7 +1,7 @@
 /* #################################### Top Section  ############################ */
 
 #top{
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     /* background: #009F6B; */
     background: #d64c7f 25%;
     color: #fff;
@@ -9,13 +9,13 @@
     vertical-align: middle;
 }
 
-.left{
-    float: left;
+.top-box{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
-
-.right{
-    float: right;
-    width: auto;
+.left{
+    font-size: 1.5rem;
 }
 .top-nav ul li{
     display: inline-block;
@@ -40,12 +40,6 @@
 .top-nav ul li span{
     font-size: 1.5rem;
     color: #b4b4b4;
-}
-
-#top::after{
-    content: '';
-    display: block;
-    clear: both;
 }
 
 /* ############################### Header  ############################# */
