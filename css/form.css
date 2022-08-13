@@ -181,3 +181,10 @@
 .other-details-left{
     padding: 1rem 2rem;
 }
+
+/* ####################        View Data Page Styling      ####################### */
+
+#student-details-view{
+    display: flex;
+    justify-content: space-between;
+}
